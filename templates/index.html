@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Golang Media</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <video
+      id="video"
+      poster="/images/{{.videoSrc}}.png"
+      controls=""
+      height="720"
+    >
+      <source
+        src="/video/{{.videoSrc}}"
+        type="video/mp4"
+      />
+      <track
+        label="English"
+        kind="subtitles"
+        srclang="en"
+        src="subtitles/{{.videoSrc}}.vtt"
+        default=""
+      />
+    </video>
+    <script src="/javascripts/index.js"></script>
+  </body>
+</html>

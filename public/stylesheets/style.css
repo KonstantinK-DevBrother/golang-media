@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.set-resolution-btn {
+  color: aliceblue;
+  padding: 10px;
+  background-color: #44aa88;
+  border: none;
+  border-radius: 3px;
+}
+
+.hidden {
+  display: none;
+}
